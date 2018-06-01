@@ -19,12 +19,11 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 
 # Install useful packages
 RUN sudo vca-install-package \
-  python-pip \
+  python-pandocfilters \
+  pylint \
   pandoc \
   build-essential \
   jq \
   texlive-base \
   texlive-xetex
 
-
-RUN pip install pandocfilters pylint
