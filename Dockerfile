@@ -25,5 +25,5 @@ RUN sudo vca-install-package \
   build-essential \
   jq \
   texlive-base \
+  graphviz \
   texlive-xetex
-
